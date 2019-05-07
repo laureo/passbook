@@ -17,7 +17,8 @@
 			dateFormat: 'yy-mm-dd',
 		});
 
-	 });
+	 })
+	 };
 </script>
 </head>
 <body>
@@ -129,7 +130,7 @@
 
 								<td class="delete" style="width: 210px; text-align: center;">
 									<p><input type="button" onclick="Common.showPage(this);" value="编辑"
-											  data-url="./UserUpdate.html" />
+											  data-url="./UserUpdate.jsp" />
 										<input type="button" onclick="Common.showPage(this);" value="禁用"
 											   data-url="#" />
 								</td>
